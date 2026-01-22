@@ -1,5 +1,9 @@
 /* Medium Device */
 @media screen and (min-width: 577px) and (max-width: 992px) {
+    .header > section, main > section, .footer > section{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
     .navbar {
         flex-direction: column;
         gap: 20px;
@@ -33,13 +37,12 @@
     .pt-content h1{
         text-align: center;
     }
+    .pt-content #p2{
+        margin-bottom: 10px;
+    }
     .pt-content button{
         text-align: center;
         margin: 0 auto;
-    }
-    .your-destination{
-        margin-left: 20px;
-        margin-right: 20px;
     }
     .row > div{
         height: 250px;
@@ -64,6 +67,10 @@
 
 /* Small Device */
 @media screen and (max-width: 576px) {
+    .header > section, main > section, .footer > section{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
     .navbar {
         justify-content: space-between;
         align-items: center;
@@ -130,9 +137,7 @@
         margin-right: 20px;
     }
     .pt-content{
-         width: calc(100% - 40px);
-        margin-left: 20px;
-        margin-right: 20px;
+        width: calc(100% - 40px);
     }
     .pt-content h1{
         text-align: center;
@@ -144,10 +149,6 @@
     .pt-content #p1, .pt-content #p2, .pt-content #li1, .pt-content #li2, .pt-content #li3{
         height: auto;
      }
-     .your-destination{
-        margin-left: 20px;
-        margin-right: 20px;
-    }
     .yd-imgs .row {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -156,6 +157,10 @@
     }
     .yd-imgs .row > div{
         grid-column:  span 1;
+    }
+    .choose-us .cu-cards{
+        display: flex;
+        flex-direction: column;
     }
 }
 

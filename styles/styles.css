@@ -286,3 +286,68 @@
     justify-content: center;
     align-items: center;
 }
+
+/* Why Choose Us Styles */
+.choose-us{
+    margin-top: 100px;
+}
+.choose-us > h1{
+    max-width: 307px;
+    font-size: 40px;
+    font-weight: 800;
+    color: rgba(19, 19, 24, 1);
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+.choose-us > p{
+    max-width: 643px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(19, 19, 24, 0.7);
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+.choose-us .cu-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+.choose-us .cu-card{
+    padding: 32px;
+    border: 1px solid black;
+}
+.choose-us .cu-card h1{
+    font-size: 24px;
+    font-weight: 800;
+    color: rgba(19, 19, 24, 1);
+    margin-bottom: 16px;
+}
+.choose-us .cu-card p{
+    max-width: 486px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(90, 90, 93, 1);
+}
+.choose-us .cu-cards #cu1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border: 1px solid rgba(251, 181, 99, 0.2);
+    border-radius: 16px;
+    background-color: #FFFBF7;
+}
+.choose-us .cu-cards #cu2{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    border: 1px solid rgba(41, 206, 246, 0.2);
+    border-radius: 16px;
+    background-color: #F4FCFE;
+}
+.choose-us .cu-cards #cu3{
+    grid-column-start: 2;
+    grid-column-end: 4;   
+    border: 1px solid rgba(233, 68, 68, 0.2);
+    border-radius: 16px;
+    background-color: #FEF5F5;
+}
