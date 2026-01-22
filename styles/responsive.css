@@ -37,6 +37,29 @@
         text-align: center;
         margin: 0 auto;
     }
+    .your-destination{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .row > div{
+        height: 250px;
+    }
+    .yd-imgs .row {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 25px;
+        margin-bottom: 25px;
+    }
+    .maldives, .indonesia, .bangladesh, .bandarban{
+        grid-column: span 3;
+        font-size: 11px;
+        font-weight: 800;
+    }
+    .srilanka, .north-america, .kashmir{
+        grid-column: span 2;
+        font-size: 11px;
+        font-weight: 800;
+    }
 }
 
 /* Small Device */
@@ -118,8 +141,21 @@
         text-align: center;
         margin: 0 auto;
     }
-    .pt-content #p2{
-        margin-bottom: 50px;
+    .pt-content #p1, .pt-content #p2, .pt-content #li1, .pt-content #li2, .pt-content #li3{
+        height: auto;
+     }
+     .your-destination{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .yd-imgs .row {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 25px;
+        margin-bottom: 25px;
+    }
+    .yd-imgs .row > div{
+        grid-column:  span 1;
     }
 }
 
