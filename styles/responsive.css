@@ -1,5 +1,5 @@
 @media screen and (max-width: 1300px) {
-    .header .navbar, .header > section, main > section, .footer > section{
+    .header .navbar, .header > section, main > section{
         margin-left: 20px;
         margin-right: 20px;
     }
@@ -114,6 +114,13 @@
         transform: none;
         padding: 20px;
         border-radius: 0;
+        background-color: rgba(255, 84, 0, 1);
+    }
+    .newsletter .nl-img #sp1{
+        color: #FFFFFF;
+    }
+    .newsletter .nl-img #sp2{
+        color: #FFFFFF;
     }
 }
 
@@ -279,6 +286,7 @@
         transform: none;
         padding: 10px;
         border-radius: 0;
+        background-color: rgba(255, 84, 0, 1);
     }
     .newsletter .nl-img #sp1 {
         font-size: 15px;
@@ -289,6 +297,9 @@
         font-size: 20px;
         font-weight: 600;
         color: #FFFFFF;
+    }
+    .zt-footer{
+        padding: 50px 10px;
     }
 }
 

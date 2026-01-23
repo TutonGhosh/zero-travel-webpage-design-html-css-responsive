@@ -579,25 +579,64 @@
 }
 .newsletter .nl-img .save{
     max-width: 324px;
+    height: auto;
     padding: 20px;
-    transform: rotate(-19.63deg);
     border-radius: 16px;
-    background-color: rgba(255, 84, 0, 1);
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(1px);
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     position: absolute;
-    top: 59.97%;
-    left: 54.7%;
+    top: 5%;
+    left: 5%;
 }
 .newsletter .nl-img #sp1{
     font-size: 20px;
     font-weight: 400;
-    color: #FFFFFF;
+    color: #FF5400;
 }
 .newsletter .nl-img #sp2{
     font-size: 30px;
     font-weight: 600;
-    color: #FFFFFF;
+    color: #FF5400;
+}
+
+/* Footer Styles */
+.zt-footer{
+    margin-top: 100px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(19, 19, 24, 0.05);
+    padding: 100px;
+}
+.f-logo{
+    max-width: 220px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+.f-logo span{
+    color: #FF5400;
+}
+.zt-footer p{
+    max-width: 770px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(90, 90, 93, 1);
+    margin-bottom: 32px;
+}
+.f-icon{
+    gap: 20px;
+}
+.f-icon i{
+    font-size: 30px;
 }
