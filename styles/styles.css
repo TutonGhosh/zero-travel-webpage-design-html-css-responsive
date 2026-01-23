@@ -524,3 +524,80 @@
     font-weight: 700;
     color: rgba(255, 255, 255, 1);
 }
+
+/* Newsletter Styles */
+.newsletter{
+    margin-top: 100px;
+    gap: 25px;
+}
+.newsletter > div{
+    width: 50%;
+}
+.newsletter .nl{
+    max-width: 474px;
+    border: 1px solid rgba(255, 84, 0, 1);
+    border-radius: 16px;
+    padding: 40px;
+}
+.newsletter .nl h3{
+    font-size: 24px;
+    font-weight: 800;
+    color: rgba(19, 19, 24, 1);
+    margin-bottom: 16px;
+}
+.newsletter .nl p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 23px;
+}
+.newsletter .nl hr{
+    border: 1px solid rgba(19, 19, 24, 0.1);
+    margin-bottom: 23px;
+}
+.newsletter .nl form input{
+    display: block;
+    border: 0;
+    border-radius: 8px;
+    background-color: rgba(19, 19, 24, 0.05);
+    padding: 20px;
+}
+.newsletter .nl form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+}
+.newsletter .nl form input[type="submit"]{
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 8px;
+    color: #FFFFFF;
+    background-color: rgba(255, 84, 0, 1);
+}
+.newsletter .nl-img{
+    position: relative;
+}
+.newsletter .nl-img .save{
+    max-width: 324px;
+    padding: 20px;
+    transform: rotate(-19.63deg);
+    border-radius: 16px;
+    background-color: rgba(255, 84, 0, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 59.97%;
+    left: 54.7%;
+}
+.newsletter .nl-img #sp1{
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.newsletter .nl-img #sp2{
+    font-size: 30px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
