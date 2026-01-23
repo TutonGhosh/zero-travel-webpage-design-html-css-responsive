@@ -83,6 +83,16 @@
     .dd-cards #dd-b2 .dd-card{
         margin: 0;
     }
+    .simple-place{
+        flex-direction: column-reverse;
+    }
+    .simple-place > div{
+        width: 100%;
+    }
+    .simple-place .sp-content h1, .sp-content .btn{
+        text-align: center;
+        margin: 0 auto;
+    }
 }
 
 /* Small Device */
@@ -202,6 +212,26 @@
     }
     .dd-cards .dd-banner .btn{
         text-align: center;
+    }
+    .simple-place{
+        flex-direction: column-reverse;
+    }
+    .simple-place > div{
+        width: 100%;
+    }
+    .simple-place .sp-content h1, .sp-content .btn{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .simple-place .sp-content h1{
+        height: auto;
+        margin-bottom: 24px;
+    }
+    .simple-place .sp-content p{
+        height: auto;
+    }
+    .simple-place .sp-content li{
+        height: auto;
     }
 }
 
