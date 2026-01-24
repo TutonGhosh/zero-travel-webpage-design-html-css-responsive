@@ -528,7 +528,8 @@
 /* Newsletter Styles */
 .newsletter{
     margin-top: 100px;
-    gap: 25px;
+    justify-content: space-between;
+    gap: 24px;
 }
 .newsletter > div{
     width: 50%;
@@ -574,6 +575,9 @@
     color: #FFFFFF;
     background-color: rgba(255, 84, 0, 1);
 }
+.newsletter .nl-img img{
+    width: 100%;
+}
 .newsletter .nl-img{
     position: relative;
 }
@@ -613,7 +617,7 @@
     justify-content: center;
     text-align: center;
     background-color: rgba(19, 19, 24, 0.05);
-    padding: 100px;
+    padding: 100px 0px;
 }
 .f-logo{
     max-width: 220px;

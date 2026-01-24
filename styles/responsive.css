@@ -222,27 +222,62 @@
     }
     .dd-cards .dd-banner{
         justify-content: center;
+        height: auto;
     }
     .dd-cards #dd-b2{
         justify-content: center;
     }
     .dd-cards .dd-banner .dd-card{
         padding: 20px;
-        margin: 10px;
+        margin: 20px;
     }
     .dd-cards #dd-b2 .dd-card{
         padding: 20px;
-        margin: 10px;
+        margin: 20px;
+    }
+    .dd-cards .dd-banner .dd-card{
+        backdrop-filter: blur(1px);
     }
     .dd-cards .dd-banner .dd-card .icons{
         display: flex;
         flex-direction: column;
+        justify-content: center;
         gap: 5px;
+        font-size: 15px;
+        font-weight: 800;
+        color: rgba(90, 90, 93, 1);
+        margin-bottom: 12px;
     }
     .dd-cards .dd-banner .btn{
         text-align: center;
     }
-    .simple-place{
+    .dd-cards .dd-card h3 {
+    font-size: 20px;
+    font-weight: 800;
+    color: rgba(19, 19, 24, 1);
+    text-align: center;
+    margin-bottom: 10px;
+    }
+    .dd-cards .dd-card p {
+    font-size: 13px;
+    font-weight: 600;
+    color: rgba(90, 90, 93, 1);
+    text-align: center;
+    margin-bottom: 10px;
+}
+.dd-cards .dd-card h4 {
+    font-size: 18px;
+    font-weight: 800;
+    color: rgba(255, 84, 0, 1);
+    text-align: center;
+    margin-bottom: 15px;
+}
+.dd-cards .dd-banner .dd-card button{
+    font-size: 14px;
+    width: 120px;
+    height: 40px;
+}
+.simple-place{
         flex-direction: column-reverse;
     }
     .simple-place > div{
@@ -299,7 +334,7 @@
         color: #FFFFFF;
     }
     .zt-footer{
-        padding: 50px 10px;
+        padding: 50px 20px;
     }
 }
 
